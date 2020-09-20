@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en-CA">
+
+<head>
+	<title>Galaxycat Review — Kratzen</title>
+	<meta name="description" content="Galaxycat Review. A silly joke review of a silly joke website." />
+	<meta charset="UTF-8" />
+	<link href="https://kratzen.neocities.org/style.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="https://kratzen.neocities.org/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+
+	<header>
+		<a href="https://kratzen.neocities.org/index.html">Kratzen</a><br />
+		<span id="subheader">Proudly presents…</span>
+	</header>
+
+	<main itemprop="review" itemscope itemtype="https://schema.org/Review">
+		<article>
+			<h1>“<span itemprop="itemreviewed">Galaxycat</span>” Review</h1>
+				<div id="authorship">
+					<time datetime="2017-07-18">2016 – 07 – 18</time>
+					<span>with ♥ from Froge</span>
+					<meta itemprop="author" content="Froge">
+				</div>
+
+				<div id="synopsis">
+					<details>
+						<summary>Synopsis</summary>
+						<p><b>Release date:</b> <time datetime="2017-07-18">2017 – 07 – 18</time>.<br />
+						<b>Developers:</b> <a href="https://galaxycat.neocities.org/">Galaxycat</a><br />
+						<b>Licence:</b> Copywrong’d.<br />
+						<b>Download:</b> <a href="https://galaxycat.neocities.org/">https://galaxycat.neocities.org/</a></p>
+						<p><b>Verdict:</b>
+						<span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+							2/5 stars. One of the downsides of reviewing indie games is there isn’t any sanity checks to make sure it’s a decent product. Now I feel grateful I’m not reviewing Web design.
+						<meta itemprop="ratingValue" content="2" />
+						<meta itemprop="bestRating" content="5" /></span></p>
+					</details>
+				</div>
+
+				<h2 id="s01"><a href="#s01">Introduction</a></h2>
+					<p id="p01">I have been recently cursed by the Evil Noise Musician, who e – mailed me twice and then left in a hurry because he didn’t like the way I type (poor bastard), to accept one evil request per month. I am now forced to review the Galaxycat website, because somebody left a comment on <a href="https://neocities.org/site/kratzen?event_id=446458">my Neocities profile</a> demanding I do so. Typically I am supposed to get paid for this garbage, but I know the commenter is on death row, so this is a good use of their last request.</p>
+					<p id="p02">This is so far out of my mandate that it would be like asking me to talk about Web security, which is as silly a prospect as making me talk about digital art or anime. It is because of this I have no precedent of what to base this “review” on, and so will involve arbitrary opinions from a master in a different field. There are some objective measures which we can discuss, and these are as entertaining or worthwhile to discuss as the difference between generic and name – brand cereals, oh joy. In case the website takes the mickey, I’m reviewing the version at <a href="https://archive.is/bkZsM">this archive</a>, and also <a href="https://web.archive.org/web/20170718155912/https://galaxycat.neocities.org/">this one</a>.</p>
+				<h2 id="s02"><a href="#s02">One: Coding Competency</a></h2>
+					<p id="p03">Staring at the source code of this website is like staring into the blank void where a philosophy should be. Looking at it shows a creator with the lack of conviction needed to create truly excellent websites — those which look good, are instantly intuitive, and load in less than a second on dial – up — and so uses whatever trends of the now exist to create a website which looks “cool” without defining what “cool” means to them. In doing so we get such horrors as in – line JavaScript for the trivial purpose of randomising the background colour, which is like putting a sweater on your Alaskan Malamute: an elaborate waste of time and effort which is used to make a beautiful dog ugly for no practical purpose. Introducing the bloat of a programming language designed in ten days into your website for the purpose of a random background, which is gilding the lily at best and a distraction at worse, shows a lack of discipline in the way they create websites and which will spill over into the lack of discipline in everything else they do.</p>
+					<p id="p04">Anybody who uses spaces instead of tabs to indent should be electrocuted; the voltage will be determined by the amount of spaces wasted by failing to use tabs like a decent human being. Don’t take that as a literal statement, but you will note that the character produced by your space bar is called a “word space”, and is used to put one space between words. As <a href="http://practicaltypography.com/word-spaces.html">Practical Typography</a> states: “The <em>word space</em> has ex­actly one pur­pose: to cre­ate hor­i­zon­tal clear­ance be­tween two words”, excluding any mention of using it as a catch – ass whitespace dispenser when dedicated symbols, such as the U+0009 character produced by your tab key, are supposed to be used in their stead. Code indented with spaces instead of tabs becomes quickly unmaintainable, as the programmer’s editor renders each space as it appears on the code, disregarding any tabbing preferences within the editor, turning into a middle finger for the poor coder who has to deal with an arrogant spacer who believes that their way of indenting is the “correct” way, and so forces it on everybody who ever has to look at their code. In essence, space indents creates worse code, and worse <em>coders</em>, and there is a special place in Hell for those who have their editors insert spaces when they press the tab key.</p>
+					<p id="p05">The CSS has one font for every stack and then defaults to a generic font; for comparison, this website has five fonts before the generic, which should cover 99% of all use cases. The fonts that Galaxycat uses are those which 0.01% of the userbase would have installed, being Righteous and Fira Sans Extra Condensed, where my fonts are standards on every Linux distribution and even then has the popular EB Garamond as a fallback. Also, the first CSS block at the very top has a needless indent, the “p” block has less indentation than the other blocks, and there is no semicolon after “margin: auto” under the “#div” block. Consistency is nice to have.</p>
+					<p id="p06">The construction of the actual HTML is functional and isn’t as awful as what you would find on 99% of all big – business websites. I am not exaggerating with that number. The vast majority of websites have such unreadable, unmaintainable, sloppy – constructed machine – generated HTML that I get literal anxiety whenever I try. Are there really people who give so little of a shit about what they’re displaying to the world that they think <a href="https://kratzen.neocities.org/reviews/2017-07/viewâââsource:http://www.pcgamer.com/">source code like this</a> is in any way acceptable? I pasted a single line into a new document, and it read 74,000 characters. Just chew on that for a little bit: 74,000 characters on a single line. I am boggled right now. Absolutely boggled. Anyway Galaxycat, no matter how many legitimate complaints I bring up, they are still but a single mole on the blumbering eldrich horror that is 2017 Web Design. Except for “div id=‘div’”, repeated three times.</p>
+					<p id="p07">As to what’s wrong with the HTML, it appears to me the indenting style is inconsistent, which would be easy to fix if you actually used tabs you bloody nut. Generally everything within a div tag is supposed to be indented, not have some things be indented and other things be not. Sometime p tags are kept inline within their parent tag and other times they’re shoved onto a new line. There is a table start tag which is indented, by how much I don’t know because I am not counting that many spaces when I could have counted the tabs instead, while the table end tag is unindented. How in the? Look, if you want good HTML, just right – click on this page and select “View page source”. I would much rather you plagiarise me if it creates a better Web than to have a mediocre one because of original incompetency.</p>
+				<h2 id="s03"><a href="#s03">Two: Optimisations</a></h2>
+					<p id="p08">There are a lot of fundamental mistakes in this website. Most telling of the creator’s inexperience is the top “Galaxycat” image being a hotlink to an external provider, which is a universally bad practice; all websites should be 100% centralised, because if you’re hosting content on a service provider that goes down, then your website is now incomplete. The image itself consists of purely text – based content, meaning the image should be replaced with text; this can be accomplished using CSS gradients, though the border won’t be perfect, so sacrifices must be made for the sake of good design. There is also some empty space at the edges of the image, so the creator should get familiar with GIMP’s autocrop function to save some bytes.</p>
+					<p id="p09">The creator of this website has imported fonts from Google. I have blocked Web fonts in my browser, so I don’t care. Even introducing a single Web font downloaded directly to your website tacks on <em>seconds</em> needed to view it, when system fonts remain as functional and free as they have been for the past two decades. If you want a custom font, create a font stack with it at the front, and create a link in your footer for users to download. So what if they don’t download it? Why would I ever force my users to view the website the way I dictate? Why would I give them a worse browsing experience, wasting time and space, just to give them a typeface that is probably garbage anyway? By the way, you better hope Google doesn’t shut down their fonts project, or else your website is going to look like crap.</p>
+					<p id="p10">The site is also using absolute links instead of relative links, meaning anybody who downloads an offline copy won’t be able to view that link without an Internet connection — same for those hotlinked images. It also makes the site harder to crawl for search engines, and might even be seen as an attempt at link farming. One of the things keeping this site dependent on the Internet is an iframe, a deprecated and universally – hated feature of HTML, which was also blocked on my end. Here’s a tip: if any aspect of your Web design is inaccessible to me, it’s bad design. I should be able to view your website using basic extensions like uBlock Origin and NoScript without losing any part of the “experience”.</p>
+					<p id="p11">It should be noted that every time I reload the page, it takes multiple seconds to load all the offsite content. Another reason why all content should be centralised and kept on the website itself is because it allows the browser to cache the page and reload it without having to fetch all the content over again. This is why inline JavaScript and CSS is awful: it doesn’t cache as well as separate files.</p>
+				<h2 id="s04"><a href="#s04">Three: Design</a></h2>
+					<p id="p12">Functional enough. The red background on the YouTube seeker is just plain old painful, and slightly less so on the X but Y seeker. But why is it that when I click on those pages, I don’t get a link back to the home page? It’s important to have consistent navigation so that, ideally, users will never have to use the built – in browser functions (back, forward, reload, etc) unless they choose to. The change of typefaces and the difference in material design shows a designer who has some idea of consistency yet hasn’t applied it to the whole of their website, unlike my websites which have one consistent design all the time and so are easy to navigate. Clicking on the different pages from the Galaxycat homepage gives the impression they are totally different websites, unlike mine which are all distinct entities.</p>
+					<p id="p13">If I zoom out of the homepage, a white void appears beneath the site. How does that even happen? It takes a special type of failure to make it so the background colour doesn’t even extend to the very bottom. The reason we have footer tags is so that there is always <em>something</em> at the very bottom of the page in case everything goes horribly wrong; of course you need CSS to attach it to the bottom, and I can’t explain how to do that because CSS is just an awful, awful mess that I don’t want to dive into unless I absolutely have to. The point is this shouldn’t ever happen, and if it does, you lose Web design forever. Download some child porn, get banned from the Internet, and the world will be right again.</p>
+				<h2 id="s05"><a href="#s05">Conclusion</a></h2>
+					<p id="p14">Could be worse.</p>
+			</article>
+	</main>
+
+	<section id="navigation">
+		<h2>Navigation</h2>
+		<a href="https://kratzen.neocities.org/index.html">Back to home</a><br />
+		<a href="https://kratzen.neocities.org/reviews/2017-07/momodora-ii-review.html">Momodora II</a> · <a href="https://kratzen.neocities.org/about.html">About</a> · <a href="https://kratzen.neocities.org/archives.html">Archives</a> · <a href="https://kratzen.neocities.org/articles/2017-07/dunkeys-garbage-part-1.html">Dunkey’s Garbage: Part 1</a>
+	</section>
+
+	<footer>
+		<p><a href="https://kratzen.neocities.org/copying.html">Public domain website</a>. A <a href="https://degenerates.neocities.org/">Degenerate Project</a>. View with <a href="https://sourceforge.net/projects/linuxlibertine/">Linux Libertine</a>.</p>
+	</footer>
+
+</body>
+
+</html>
